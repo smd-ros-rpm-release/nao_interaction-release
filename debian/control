@@ -1,0 +1,12 @@
+Source: ros-groovy-nao-interaction-msgs
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-actionlib-msgs, ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-nav-msgs, ros-groovy-sensor-msgs, ros-groovy-std-msgs, ros-groovy-trajectory-msgs
+Homepage: http://wiki.ros.org/nao_interaction_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-nao-interaction-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-actionlib-msgs, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-nav-msgs, ros-groovy-sensor-msgs, ros-groovy-std-msgs, ros-groovy-trajectory-msgs
+Description: Messages and services declarations for the nao_interaction metapackage
