@@ -1,0 +1,12 @@
+Source: ros-groovy-nao-interaction
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-catkin
+Homepage: http://wiki.ros.org/nao_interaction
+Standards-Version: 3.9.2
+
+Package: ros-groovy-nao-interaction
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-nao-audio, ros-groovy-nao-interaction-launchers, ros-groovy-nao-interaction-msgs, ros-groovy-nao-vision
+Description: Metapackage for the Nao robot, providing access to: - NAOqi audio proxies - NAOqi vision proxies
