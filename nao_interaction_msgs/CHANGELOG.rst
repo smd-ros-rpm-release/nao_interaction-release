@@ -2,6 +2,9 @@
 Changelog for package nao_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.4 (2014-11-13)
+------------------
+
 0.1.3 (2014-09-08)
 ------------------
 * remove useless dependencies to fix build
