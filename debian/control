@@ -1,0 +1,12 @@
+Source: ros-hydro-nao-audio
+Section: misc
+Priority: extra
+Maintainer: Manos Tsardoulias <etsardou@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://wiki.ros.org/nao_audio
+Standards-Version: 3.9.2
+
+Package: ros-hydro-nao-audio
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-nao-interaction-msgs, ros-hydro-roslaunch, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-std-srvs
+Description: Package for the Nao robot, providing access to NAOqi audio proxies
